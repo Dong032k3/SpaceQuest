@@ -698,8 +698,8 @@ GameObject:
   - component: {fileID: 1360370100}
   - component: {fileID: 1360370099}
   - component: {fileID: 1360370098}
-  - component: {fileID: 1360370097}
   - component: {fileID: 1360370096}
+  - component: {fileID: 1360370097}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -746,7 +746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ad431254ec143429e1aa641c408a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  playerDirection: {x: 0, y: 0}
+  moveSpeed: 5
+  boost: 1
 --- !u!95 &1360370098
 Animator:
   serializedVersion: 7
