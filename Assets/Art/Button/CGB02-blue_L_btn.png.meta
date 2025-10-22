@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0fc3c6c4c1b123c43971efc0f6af9e46
+guid: b68ee85f4c7ff4040ac6a18838158f65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1503734335005910160
-    second: player_large_0
+      213: -1573344661467012158
+    second: CGB02-blue_L_btn_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_large_0
+      name: CGB02-blue_L_btn_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 399
-        height: 398
+        width: 512
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07b1a65e699a12be0800000000000000
-      internalID: -1503734335005910160
+      spriteID: 2c36008cd5b5a2ae0800000000000000
+      internalID: -1573344661467012158
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_large_0: -1503734335005910160
+      CGB02-blue_L_btn_0: -1573344661467012158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
