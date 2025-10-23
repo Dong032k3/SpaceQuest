@@ -35,7 +35,7 @@ public class ObjectSpawner : MonoBehaviour
     }
 
     private void SpawnObject(){
-        if(Time.timeScale > 0f)
+        if(Time.timeScale > 0f && PlayerController.Instance.boost > 0f)
         {
             Instantiate(waves[waveNumber].prefab, RandomSpawnPoint(), transform.rotation, transform);
             waves[waveNumber].spawnedObjectCount++;
